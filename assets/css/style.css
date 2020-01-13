@@ -1,18 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap');
+
+/* Site-wide */
+
+body {
+    color: #ffffff;
+    font-family: "Libre+Baskerville", sans-serif;
+}
+
 /* Landing page */
 
-.intro {background-attachment: fixed;
+.intro {
+        background-attachment: fixed;
         background-image: url('assets/images/index/countryside.jpg');
         background-position: bottom;
         background-size: cover;
-        margin-bottom: 0px;
+        background-color: transparent;
+        padding: 180px 0 180px 0;
+}
 
-        }
+.jumbotron {
+    background-color: transparent;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#kerry {
+    font-size: 75px;
+}
+
+.kerry-logo {
+    background-color: transparent;
+}
 
 /* ---- Contact page ---- */
 
 #contact-page {
     background-attachment: fixed;
-    background-image: url(assets/images/contact/kerry-view.jpg);
+    background-image: url("assets/images/contact/kerry-view.jpg");
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
@@ -20,14 +46,16 @@
 }
 
 .contact-form {
-    margin: 30vh auto;
+    margin: 20vh auto;
     padding: 0 auto;
     text-align: center;
     width: 66%;
     max-width: 750px;
 }
-.contact > h2, p {
-    color: white;
+.contact > h2 {
+    /*text-shadow: -1px 0 #fffb01, 0 1px #fffb01, 1px 0 #fffb01, 0 -1px #fffb01;*/
+    color:white;
+    font-size: 5vh;
 }
 .row {
     margin: 0;
@@ -36,4 +64,60 @@
 .btn-submit {
     margin-top: 20px;
     background-color: darkgreen;
+    border: 2px solid gold;
+    color:gold;
+
 }
+
+/*-------------------------------------------------------Stay Page--------------*/
+
+.background-images-stay {
+			background-attachment: fixed;
+			background-image: url('assets/images/stay/Sheep.jpg');
+			background-position: bottom;
+			background-size: cover;
+			margin-bottom: 0px;
+            height: 100vh;
+
+		}
+
+/*-------------------------------------------------------Images--------------*/   
+
+.rotateimg3 {
+  -webkit-transform:rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+
+.rotateimg-3 {
+  -webkit-transform:rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+.img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.video {
+    height: 100%;
+    width: 100%;
+}
+
+/*---------------- Places Page -------------*/
+
+.background-images-places {
+			background-attachment: fixed;
+			background-image: url('assets/images/stay/Sheep.jpg');
+			background-position: bottom;
+			background-size: cover;
+			margin-bottom: 0px;
+            height: 100vh;
+
+		}

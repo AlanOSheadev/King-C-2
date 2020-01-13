@@ -1,45 +1,92 @@
 <!DOCTYPE html>
 <html lang="en" class="full-height">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.12.0/css/all.css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>Kingdom Come</title>
-    <style>
-        #contact-page {
-        background-attachment: fixed;
-        background-image: url('assets/images/contact/kerry-view.jpg');
-        background-position: bottom;
-        background-size: cover;
-        margin-bottom: 0px;
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.12.0/css/all.css">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+	<title>Kingdom Come</title>
+	<style>
+		#contact-page {
+			background-attachment: fixed;
+			background-image: url('assets/images/contact/kerry-view.jpg');
+			background-position: bottom;
+			background-size: cover;
+			margin-bottom: 0px;
 
-        }
-
-    </style>
+		}
+	</style>
 </head>
+
 <body>
-    <section id="contact-page">
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Kingdom Come</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item dropdown active">
+						<a class="nav-link" href="things.html">Things to do<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="places.html" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Places to go
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Places to stay</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="stay.html" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Where to stay
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Places to stay</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+		</nav>
+	</header>
+	<section id="contact-page">
 		<div class="row">
 			<div class="col-8 offset-2 contact-form">
 				<div class="contact">
-					<h2>Do you have any question about the Kingdom?</h2>
-					<p>Contact us</p>
+					<h2>Do you have any questions about the Kingdom?</h2>
 				</div>
 				<div class="form">
 					<form>
 						<input type="text" name="name" id="fullname" class="form-control" placeholder="Your name" required="">
 						<input type="email" name="email" id="emailaddress" class="form-control" placeholder="Your e-mail address" required="">
 						<textarea name="projectsummary" id="projectsummary" rows="10" class="form-control project-description" placeholder="Ask us something about the Kingdom" required=""></textarea>
-						<button type="submit" class="btn btn-submit btn-primary">Send</button>
+						<button type="submit" class="btn btn-submit ">Send</button>
 					</form>
 				</div>
 			</div>
 		</div>
 	</section>
-    
+
 </body>
+
 </html>
