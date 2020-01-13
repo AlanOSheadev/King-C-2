@@ -1,8 +1,38 @@
+/* Landing page */
+
+.intro {background-attachment: fixed;
+        background-image: url('assets/images/index/countryside.jpg');
+        background-position: bottom;
+        background-size: cover;
+        margin-bottom: 0px;
+
+        }
+
 /* ---- Contact page ---- */
 
 #contact-page {
-    
+    background-attachment: fixed;
+    background-image: url(assets/images/contact/kerry-view.jpg);
+    background-position: bottom;
+    background-size: cover;
+    margin-bottom: 0px;
+    height: 100vh;
 }
-.submit-btn {
-    margin: 20 0;
+
+.contact-form {
+    margin: 30vh auto;
+    padding: 0 auto;
+    text-align: center;
+    width: 66%;
+    max-width: 750px;
+}
+.contact > h2, p {
+    color: white;
+}
+.row {
+    margin: 0;
+}
+
+.btn-submit {
+    
 }
