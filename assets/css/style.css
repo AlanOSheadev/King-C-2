@@ -7,6 +7,16 @@ body {
     font-family: "Libre+Baskerville", sans-serif;
 }
 
+.uppercase {
+ text-transform: uppercase;
+}
+
+.border {
+    color: slategray solid 3px;
+}
+
+/* Navbar */
+
 /* Landing page */
 
 .intro {
@@ -16,8 +26,8 @@ body {
         background-size: cover;
         background-color: transparent;
         padding: 180px 0 180px 0;
+        
 }
-
 .jumbotron {
     background-color: transparent;
 }
@@ -30,7 +40,7 @@ h1 {
     font-size: 75px;
 }
 
-.kerry-logo {
+.shamrock {
     background-color: transparent;
 }
 
@@ -71,15 +81,15 @@ h1 {
 
 /*-------------------------------------------------------Stay Page--------------*/
 
-.background-images-stay {
-			background-attachment: fixed;
-			background-image: url('assets/images/stay/Sheep.jpg');
-			background-position: bottom;
-			background-size: cover;
-			margin-bottom: 0px;
-            height: 100vh;
+.intro2 {
+        background-attachment: fixed;
+        background-image: url('assets/images/stay/Sheep.jpg');
+        background-position: bottom;
+        background-size: cover;
+        background-color: transparent;
+        
+}
 
-		}
 
 /*-------------------------------------------------------Images--------------*/   
 
@@ -110,14 +120,53 @@ h1 {
     width: 100%;
 }
 
+.media {
+    display: flex;
+    align-items: flex-start;
+    margin: 5px;
+}
+
 /*---------------- Places Page -------------*/
 
 .background-images-places {
 			background-attachment: fixed;
-			background-image: url('assets/images/stay/Sheep.jpg');
+            background-color: gold;
+			background-image: center;url('assets/images/stay/Sheep.jpg');
 			background-position: bottom;
 			background-size: cover;
 			margin-bottom: 0px;
             height: 100vh;
-
+            color:darkgreen;
 		}
+#places > h1 {
+    color:gold;
+    background-color: darkgreen;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.place-name {
+    font-weight: 600;
+    text-align: center;
+    color: White;
+    
+}
+
+
+
+/*----------------   -------------*/
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) {
+
+.navbar-brand {
+    margin-right: 20px;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 20px;  
+}
+
+}
